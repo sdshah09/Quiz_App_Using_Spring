@@ -1,10 +1,9 @@
-package com.shaswat.quizapp;
+package com.shaswat.quizapp.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
-import jakarta.persistence.criteria.CriteriaBuilder;
 import lombok.Data;
 
 @Data
@@ -14,7 +13,6 @@ public class Question {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
-    private String title;
     private String category;
     private Integer difficulty_level;
     private String option1;

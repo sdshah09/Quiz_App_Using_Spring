@@ -1,6 +1,6 @@
 package com.shaswat.quizapp.service;
 
-import com.shaswat.quizapp.Question;
+import com.shaswat.quizapp.model.Question;
 import com.shaswat.quizapp.dao.QuestionDao;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

@@ -1,6 +1,6 @@
 package com.shaswat.quizapp.controller;
 
-import com.shaswat.quizapp.Question;
+import com.shaswat.quizapp.model.Question;
 import com.shaswat.quizapp.service.QuestionService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
